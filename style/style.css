@@ -1,0 +1,1039 @@
+body{
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://global-uploads.webflow.com/5f04dd60cf344a1e1952a8e5/63733481369bfa6ae42fa610_Transparent-Texture.webp);
+    background-position: 0 0;
+    margin: 0 auto;
+}
+
+button{
+    cursor: pointer;
+}
+
+.navigation{
+    z-index: 9999;
+    height: 40px;
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    background-image: url(https://global-uploads.webflow.com/5f04dd60cf344a1e1952a8e5/63733481369bfa6ae42fa610_Transparent-Texture.webp);
+    background-position: 0 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding-top: 8px;
+}
+
+.nav-container{
+    max-width: 1280px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: static;
+}
+
+.nav-right{
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+#title{
+    line-height: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+    position: relative;
+}
+
+#title a{
+    text-decoration: none;
+    font-family: shark;
+}
+
+#title a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    border: 0pc;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+h1{
+    font-family: shark;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: GT America Standard, sans-serif;
+}
+
+a:hover{
+    background-color: #A80CDE;
+    color: white;
+    transition: 0.3s all;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.button_login{
+    width: 121px;
+    height: 34px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    background-color: #920dbe;
+    color: #ffffff;
+    text-align: center;
+    font-family: GT America Standard, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.button_login:hover{
+    color: white;
+    background: #A80CDE;
+    transition: 0.3s all;
+}
+
+.body{
+    width: 1440px;
+    height: 718px; 
+    
+}
+
+.body .container{
+    width: 231px;
+    height: 140px;
+    position: fixed;
+    margin-left: 43%;
+    margin-top: 120px;
+}
+
+.body .title{
+    margin-top: 246px;
+    color: #000;
+    font-family: Spectral;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.copy span{
+    color:#A80CDE;
+}
+
+.copy h2{
+    font-family: GT Walsheim, sans-serif;
+    font-size: 38px;
+    font-weight: 200;
+    color: #000;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    margin-top: 70px;
+    margin-left: 125px;
+    margin-right: 150px;
+}
+
+p{
+    font-family: GT America Standard, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.copy p{
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+form{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    height: 25px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.btn-stp{
+    margin-top: 5px;
+    border: #920dbe 1px solid;
+    border-radius: 20px;
+    background: transparent;
+    font-size: 18px;
+    height: 25px;
+    margin-left: -19px;
+}
+
+.btn-stp:hover{
+    background-color: #A80CDE;
+    color: white;
+    transition: 0.3s linear;
+}
+
+
+.btn-invest{
+    margin-left: 100px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: 18px;
+    border-image: url(https://global-uploads.webflow.com/5f04dd60cf344a1e1952a8e5/63733481369bfa6ae42fa610_Transparent-Texture.webp);
+    padding: 15px;
+    height: 50px;
+}
+
+.btn-invest:hover{
+    color: #A80CDE;
+    transition: 0.3s all;
+}
+
+.lgn-img{
+    margin-left: -40px;
+    height: 17px;
+}
+
+.olgn-img{
+    margin-left: 20px;
+    height: 17px;
+}
+
+.lgn-li{
+    font-size: 17px;
+    margin-left: -2px;
+    color: rgb(95, 95, 95);
+}
+
+.olgn-li{
+    font-size: 17px;
+    margin-left: 2px;
+    color: rgb(95, 95, 95);
+}
+
+.box-submit{
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    width: 430px;
+    height: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 125px;
+}
+
+.box-submit img{
+    width: 100px;
+    height: 92.08px;
+    margin-right: 20px;
+}
+
+.box-text{
+    margin: -12px;
+}
+
+.box-text p{
+    font-size: 15px;
+    width: 100%;
+
+}
+
+.txt-pbc{
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+.btn-box1 button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin: -20px;
+    cursor: pointer;
+    position: flex; 
+    white-space: nowrap;
+}
+
+.btn-box1 button:first-child {
+    margin-top: 200px;
+    margin-left: -425px;
+    margin-right: 148px;
+}
+
+.btn-pbc{
+    border: none;
+    color: #FFF;
+    background-color: #920dbe;
+}
+
+.btn-pbc:hover{
+    background-color: #A80CDE;
+    transition: 0.3s all;
+}
+
+.btn-sbm{
+    border: none;
+    color: #000;
+    background-color: transparent;
+}
+
+.btn-sbm:hover{
+    color: #A80CDE;
+}
+
+.box-invest{
+    margin-top: 100px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    width: 430px;
+    height: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: -292px;
+    float: right;
+}
+
+.btn-box2 button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: -20px;
+    cursor: pointer;
+    position: flex; 
+    white-space: nowrap;
+}
+
+.btn-box2 button:first-child {
+    margin-top: 200px;
+    margin-left: -425px;
+    margin-right: 148px;
+}
+
+.box-invest img{
+    width: 100px;
+    height: 92.08px;
+    margin-right: 20px;
+}
+
+.box-text2{
+    margin: -12px;
+}
+
+.box-text2 p{
+    font-size: 15px;
+    width: 100%;
+}
+
+.txt-inv{
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+.paragraph{
+    justify-content: center;
+    max-width: 1000px;
+    margin-top: 100px;
+    margin-left: 23%;
+    text-align: center;
+}
+
+.paragraph p{
+    font-size: 30px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aspas-top{
+    margin-left: 380px;
+    margin-top: 150px;
+    margin-bottom: -100px;
+}
+
+.aspas-down{
+    float: right;
+    margin-right: 370px;
+    margin-top: -30px;
+} 
+
+.old-footer{
+    width: 100%;
+    margin-top: 150px;
+    height: 800px;
+    border-top: 0.2px solid #eee;
+    background-color: #FFF;
+}
+.old-footer a{
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
+    color: gray;
+}
+
+.old-footer a:hover{
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    color: #000;
+}
+
+.logo-container{
+    width: 64px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: -468px;
+    left: 0;
+    right: 0;
+}
+
+.call-action{
+    margin-top: 70px;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+    align-items: center;
+}
+
+.call-action h2{
+    font-size: 40px;
+    font-family: GT Walsheim, sans-serif;
+    text-align: center;
+}
+
+.call-action span{
+    font-family: shark;
+    font-size: 48px;
+    
+}
+
+.call-action p{
+    text-align: center;
+}
+
+.call-action h1{
+    line-height: 0.2px;
+    text-align: center;
+}
+
+#btn-sign{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -32px;
+    left: 0;
+    right: 0;
+}
+
+.botaocadastro{
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    background-color: #920dbe;
+    color: #ffffff;
+    text-align: center;
+    font-family: GT America Standard, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    
+}
+
+.footer-left{
+    float: left;
+    margin-top: -30px;
+    margin-left: 125px;
+    font-size: 15px;
+}
+
+.footer-right{
+    margin-top: -10px;
+    margin-right: 100px;
+    float: right;
+}
+
+.footer-right img{
+    height: 22px;
+    width: 22px;
+}
+
+form input{
+    cursor: pointer;
+}
+
+form input[type="text"]{
+    font-family: GT America Standard, sans-serif;
+}
+
+form .botaocadastro:hover{
+    color: white;
+    background: #A80CDE;
+    transition: 0.3s linear;
+}
+
+h3{
+    font-family: GT Walsheim, sans-serif;
+}
+
+.privacy-container{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    max-width: 700px;
+    left: 0;
+    right: 0;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.privacy-container ul li{
+    display:grid;
+    line-height: 8px;
+}
+
+h3{
+    font-size: 27px;
+}
+
+.privacy-container a:hover{
+    border: none;
+    box-shadow: none;
+    background: none;
+    color: #A80CDE;
+    padding: none;
+}
+
+#btn-comeback{
+    margin-left: 125px;
+    max-width: 25px;
+    max-height: 25px;
+    position: fixed;    
+}
+
+#btn-comeback a:hover{
+    border: none;
+    box-shadow: none;
+    background: none;
+    color: #A80CDE;
+    padding: none;
+}
+
+#btn-comeback button{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.footer-privacy{
+    width: 100%;
+    margin-top: 150px;
+    height: 800px;
+    border-top: 0.2px solid #eee;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0px;
+}
+
+.logo-footer{
+    max-width: 100px;
+    max-height: 100px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.new-footer{
+    width: 100%;
+    height: 200px;
+    border-top: 0.2px solid #eee;
+    background-color: #FFF;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    margin: 0;
+}
+
+.privacy-footer{
+    width: 100%;
+    height: 200px;
+    border-top: 0.2px solid #eee;
+    background-color: #FFF;
+    position: static;
+    bottom: 0px;
+    margin: 0;
+}
+
+.new-footer a{
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
+    color: gray;
+}
+
+
+.privacy-footer a{
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 15px;
+    color: gray;
+}
+
+.new-footer a:hover{
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    color: #000;
+}
+
+.privacy-footer a:hover{
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    color: #000;
+}
+
+.terms-container{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    max-width: 700px;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.terms-container a:hover{
+    border: none;
+    box-shadow: none;
+    background: none;
+    color: #A80CDE;
+    padding: none;
+}
+
+.suporte{
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.suporte form{
+    justify-content: center;
+    margin-bottom: 25rem;
+    position: static;
+}
+
+.suporte form ul li{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.suporte form ul li input{
+    justify-content: center;
+    margin-right: 40px;
+    height: 30px;
+    width: 300px;
+    font-family: GT America Standard, sans-serif;
+    border: 0.01px solid gray;
+    cursor: text;
+}
+
+
+
+.suporte form input[type="text"]{
+    font-family: GT America Standard, sans-serif;
+}
+
+.input-subject [type="text"]{
+    width: 646px;
+}
+
+.input-message textarea{
+    font-family: GT America Standard, sans-serif;
+    width: 646px;
+    height: 200px;
+    border: 0.01px solid gray;
+} 
+
+.input-button{
+    width: 150px;
+}
+
+.input-button [type="submit"]{
+    font-family: GT America Standard, sans-serif;
+    font-size: 17px;
+    background-color: #920dbe;
+    color: #FFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.input-button [type="submit"]:hover{
+    background-color: #A80CDE;
+    transition: 0.3s linear;
+}
+
+#main-suporte{
+    padding-bottom: 2.5rem;
+}
+
+#main-privacy{
+    padding-bottom: 2.5rem;
+}
+
+#main-suporte #btn-comeback{
+    margin-right: -125px;
+}
+
+.remove-style-a{
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.remove-style-a:hover{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.login-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 250px;
+    font-family: GT America Standard, sans-serif;
+}
+
+.form-login input:focus{
+    border: 2px solid #A80CDE;
+}
+
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.login-container label{
+    margin-top: 10px;
+}
+
+.login-container input{
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    cursor: text;
+    font-family: GT America Standard, sans-serif;
+}
+
+.input-border:focus{
+    border: 1px solid #ff0202;
+}
+
+.login-container button{
+    font-size: 15px;
+    background-color: #920dbe;
+    color: #fff;
+    border: none;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: GT America Standard, sans-serif;
+}
+
+.login-container button:hover{
+    background-color: #A80CDE;
+    transition: 0.3s linear;
+}
+
+.forget-password-container{
+    font-size: 13px;
+    float: right;
+    margin-right: 0 auto;
+    margin-top: -130px;
+}
+
+.login-container a:hover{
+    color: #A80CDE;
+}
+
+.title{
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    font-family: shark, sans-serifF;
+    position: absolute;
+    margin-top: 180px;
+    font-size: 70px;
+}
+
+.register-container{
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    border-top: 0.2px solid #eee;
+    font-size: 12.9px;
+}
+
+
+.birthday-container input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30px;
+    cursor: text;
+    font-family: GT America Standard, sans-serif;
+}
+
+
+.nivergen-container{
+    margin-bottom: -50px;
+    margin-left: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.day-content{
+    justify-content: left;
+    align-items: left;
+    margin-left: 0;
+    left: auto;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.data-container label{
+    font-size: 20px;
+}
+
+#genero{
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.remove-padding-a{
+    padding: none;
+}
+
+#btn-sign{
+    margin-top: 20px;
+}
+
+#btn-sign a{
+    width: 121px;
+    height: 34px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    background-color: #920dbe;
+    color: #ffffff;
+    text-align: center;
+    font-family: GT America Standard, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#btn-sign a:hover{
+    background-color: #A80CDE;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-background-running{
+    width: 140px;
+    cursor: default;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: GT America Standard, sans-serif;
+    background-color: #A80CDE;
+    color: white;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.next-container{
+    width: 150px;
+    height: 35px;
+    position: flex;
+    margin-top: 170px;
+    margin-left: 270px;
+}
+
+.next-button{
+    font-size: 15px;
+    background-color: #920dbe;
+    color: #fff;
+    border: none;
+    margin-left: -64.5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: GT America Standard, sans-serif;
+}
+
+.next-button:hover{
+    background-color: #A80CDE;
+    transition: 0.3s linear;
+}
+
+.login-container .next-container a:hover{
+    color: white;
+}
+
+.perfil-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    width: 500px;
+    justify-content: center;  
+    margin-top: 50px;
+}
+
+.sobre-container{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: GT America Standard, sans-serif;
+}
+
+.startup-container{
+    margin-top: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: GT America Standard, sans-serif;
+}
+
+.experiencia-container{
+    margin-top: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: GT America Standard, sans-serif;
+    margin-bottom: 50px;
+}
+
+.img-perfil{
+    width: 120px;
+    border-radius: 50%;
+    transform: translateY(-78px);
+}
+
+.SenhaFraca{
+    background-color: rgba(255, 0, 0, 0.376);
+    border-color: 10px solid red;
+    border-radius: 50px;
+}
+
+.SenhaFraca ::placeholder{
+    color: red;
+}
+
+.mensagem-erro{
+    color: red;
+    font-size: 12px;
+    font-family: GT America Standard, sans-serif;
+}

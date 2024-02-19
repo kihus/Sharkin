@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sharkin</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/font.css">
+</head>
+<body id="corpinho">
+    <main id="main-suporte" style="height: 750px;">
+        <h1 class="title">SHARKIN</h1>
+        <div id="btn-comeback">
+            <button onclick="history.back()">
+                <img src="./components/images/setas-traseiras.png" alt="voltar" width="25px" height="25px">
+            </button>
+        </div>
+        <div class="login-container" style="height: 500px;">
+            
+            <h2>Criar uma conta</h2>
+            <form method="post" action="grava.jsp">
+                <input type="text" id="name" style="height: 45px;" name="txtNome" placeholder="Nome*" required>
+                <input type="text" id="lastname" style="height: 45px;" name="txtSobreNome" placeholder="Sobrenome (opcional)">
+                <input type="email" id="email" style="height: 25px;" name="txtEmail"pattern=".*@.*" placeholder="Email*" required>
+                <input type="password" id="password" style="height: 25px;" name="txtSenha" placeholder="Senha*" onblur="verificarForcaSenha(this)" required>
+                <span id="senhaFraca" class="mensagem-senha-fraca"></span>
+                <input type="password" id="confirmPassword" style="height: 25px;" name="senha" placeholder="Confirmar senha*" onblur="verificarSenhaIgual()" required>
+                <span id="mensagemErro" class="mensagem-erro"></span>
+                Nascimento
+                <input type="date" placeholder="Dia" maxlength="2" id="day" name="txtDataNasc" style="font-size: 15px; padding: 10px; padding-top: 17.5px; padding-bottom: 17.5px; justify-content: center; align-items: center;" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                <input type="submit" value="Gravar">
+
+                
+            </form>
+
+        
+        <script>
+            function verificarForcaSenha(inputSenha){
+                var senha = inputSenha.value;
+        
+                var senhaFraca = senha.length < 8;
+        
+                if(senhaFraca){
+                    inputSenha.classList.add("SenhaFraca");
+                } else {
+                    inputSenha.classList.remove("SenhaFraca");
+                }
+            }
+
+            function verificarSenhaIgual(){
+                var password = document.getElementById("password").value;
+                var confirmPassword = document.getElementById("confirmPassword").value;
+                var mensagemErro = document.getElementById("mensagemErro");
+
+                if(password != confirmPassword){
+                    mensagemErro.textContent = "A confirmação de senha não confere.";
+                }else{
+                    mensagemErro.textContent = "";
+                }
+                    
+
+            }
+        </script>
+
+        </div>
+        
+    </main>
+</body>
+              <!-- Nascimento
+                <input type="date" placeholder="Dia" maxlength="2" id="day" name="data_nasc" style="font-size: 15px; padding: 10px; padding-top: 17.5px; padding-bottom: 17.5px; justify-content: center; align-items: center;" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                Gênero
+                <select id="genero" name="genero" style="padding: 5px; padding-right: -10px;" >
+                    <option>Homem</option>
+                    <option>Mulher</option>
+                    <option>Outro</option>
+                </select>         -->

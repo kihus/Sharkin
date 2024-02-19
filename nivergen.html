@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sharkin</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/font.css">
+</head>
+<body id="corpinho">
+    <main id="main-suporte" style="height: 750px;">
+        <h1 class="title">SHARKIN</h1>
+        <div id="btn-comeback">
+            <button onclick="history.back()">
+                <img src="./components/images/setas-traseiras.png" alt="voltar" width="25px" height="25px">
+            </button>
+        </div>
+        <div class="login-container" style="height: 350px;">
+            
+            <h2>Informações básicas</h2>
+            <p style="text-align: center;">Coloque sua data de nascimento e gênero<p>
+            <form action="#" method="post">
+                
+                <div class="nivergen-container">
+                    <div class="day-content">
+                        <label style="font-size: 20px; justify-content: center; align-items: center;">Nascimento</label>
+                        <input type="date" placeholder="Dia" maxlength="2" id="day" style="font-size: 15px;" onkeypress="if (!isNaN(String.fromCharCode(window.event.keyCode))) return true; else return false;">
+                
+                    </div>
+                </div>
+                <form class="data-container">
+                    <label style="font-size: 20px;">Gênero</label>
+                    <select id="genero" name="genero" >
+                        <option>Homem</option>
+                        <option>Mulher</option>
+                        <option>Outro</option>
+                        
+                    </select>
+                   <a href="./cadastro-email.html" class="remove-style-a"><button type="submit" style="margin-top: 20px; margin-left:180px; font-family: GT Walsheim, sans-serif;">Próxima</button></a>
+                </form> 
+            </form>
+            
+        </div>
+    </main>
+</body>
